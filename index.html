@@ -7,6 +7,10 @@
 </head>
 <body>
  <h2 id="mensaje">Cargando...</h2>
+ <section class="confirmacion">
+    <h2>¿Nos acompañas?</h2>
+    <button onclick="enviarConfirmacion()">Confirmar Asistencia</button>
+  </section>
  <script>
  // Simulación de base de datos de contactos
  const contactos = [
@@ -24,8 +28,7 @@
  const contacto = contactos.find(c => c.telefono === telefono);
  const mensaje = document.getElementById("mensaje");
  if (contacto) {
- mensaje.textContent = `Hola ${contacto.nombre}, esta es tu invitación
-personalizada.`;
+ mensaje.textContent = `Hola ${contacto.nombre}, acompañanos en éste día y celebra con nosotros ésta nueva etapa en nuestras vidas.`;
  } else {
  mensaje.textContent = "No se encontró tu número en la base de datos.";
  }
