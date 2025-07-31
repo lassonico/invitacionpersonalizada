@@ -8,8 +8,8 @@ body {
 h2{
   text-align: center;
   font-family: "Outfit", sans-serif;
-  font-size: 35px;
-  margin: 50px auto;
+  font-size: 27px;
+  margin: 50px;
   color:#5E6973;
 }
 
@@ -17,7 +17,7 @@ h2{
   display: block;
   margin: 50px auto;
   background-color: #5E6973; 
-  color: white;
+  color: #BDFFFD;
   border: none;
   font-family: "Outfit", sans-serif;
   padding: 15px 30px;
