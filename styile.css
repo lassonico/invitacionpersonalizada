@@ -12,3 +12,15 @@ h2{
   margin: 50px auto;
   color:#5E6973;
 }
+
+.confirmacion button {
+  display: block;
+  margin: 50px auto;
+  background-color: #5E6973; 
+  color: white;
+  border: none;
+  font-family: "Outfit", sans-serif;
+  padding: 15px 30px;
+  font-size: 1em;
+  border-radius: 9px;
+}
