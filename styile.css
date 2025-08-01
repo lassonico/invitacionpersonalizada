@@ -31,13 +31,16 @@ h2{
   }
 }
 /*SECCION LOADER*/
-
+.louder-content{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .loader {
-            position: absolute;
+            
             width: 108px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
+            
           }
           .loader::after , .loader::before  {
             content: '';
