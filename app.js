@@ -19,3 +19,20 @@ console.log("On line")
  } else {
  mensaje.textContent = "No se encontró tu número en la base de datos.";
  }
+
+window.addEventListener("load", function() {
+      setTimeout(function() {
+        document.getElementById("loader").style.display = "none";
+        document.getElementById("contenido").style.display = "block";
+
+        const telefono = obtenerParametro("telefono");
+        const nombre = buscarNombre(telefono);
+
+        const mensaje = document.getElementById("mensaje");
+        if (nombre) {
+          mensaje.textContent = `Hola ${nombre}, esta es tu invitación personalizada.`;
+        } else {
+          mensaje.textContent = "No se encontró una invitación personalizada para este número.";
+        }
+      }, 4000);
+    });
