@@ -42,7 +42,7 @@ h2{
 }
 .loader {
   display: block;
-  width: 108px;
+  width: 80px;
   margin:50px auto;
 }
 .loader::after , .loader::before  {
