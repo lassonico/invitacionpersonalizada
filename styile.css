@@ -4,6 +4,7 @@ body {
   background:#BDFFFD;
   margin: 0;
   font-family: "Outfit", sans-serif;
+  position: relative;
 }
 h2{
   text-align: center;
@@ -32,10 +33,11 @@ h2{
 /*SECCION LOADER*/
 
 .loader {
-            position: relative;
+            position: absolute;
             width: 108px;
             display: flex;
-            justify-content: space-between;
+            justify-content: center;
+            align-items: center;
           }
           .loader::after , .loader::before  {
             content: '';
