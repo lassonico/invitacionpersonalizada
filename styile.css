@@ -7,7 +7,7 @@ body {
   position: relative;
 }
 #contenido{
- display: none; 
+ display: none;
 }
 h2{
   text-align: center;
@@ -40,7 +40,8 @@ h2{
   justify-content: center;
   align-items: center;
 }
-.loader {          
+.loader {
+  display: block;
   width: 108px;
   margin:50px auto;
 }
