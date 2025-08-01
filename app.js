@@ -34,5 +34,5 @@ window.addEventListener("load", function() {
         } else {
           mensaje.textContent = "No se encontró una invitación personalizada para este número.";
         }
-      }, 4000);
+      }, 6000);
     });
